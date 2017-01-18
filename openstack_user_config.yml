@@ -211,7 +211,7 @@ tunnel_bridge: "br-vxlan"
 #   (the native VLAN in some parlance). However, additional 'vlan' or 'flat'
 #   networks require additional bridges.
 #
-   provider_networks:
+provider_networks:
      - network:
          group_binds:
            - all_containers
@@ -337,7 +337,7 @@ tunnel_bridge: "br-vxlan"
 #
 # Define three OpenStack infrastructure hosts:
 #
- os-infra_hosts:
+os-infra_hosts:
    infra1:
      ip: 10.0.0.12
 #   infra2:
@@ -363,7 +363,7 @@ tunnel_bridge: "br-vxlan"
 #
 # Define three OpenStack identity hosts:
 #
- identity_hosts:
+identity_hosts:
    infra1:
      ip: 10.0.0.12
 #   infra2:
@@ -389,7 +389,7 @@ tunnel_bridge: "br-vxlan"
 #
 # Define three OpenStack network hosts:
 #
- network_hosts:
+network_hosts:
    infra1:
      ip: 10.0.0.12
 #   infra2:
@@ -415,7 +415,7 @@ tunnel_bridge: "br-vxlan"
 #
 # Define an OpenStack compute host:
 #
- compute_hosts:
+compute_hosts:
    compute1:
      ip: 10.0.0.33
 #
