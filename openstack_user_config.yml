@@ -121,12 +121,12 @@ global_overrides:
 #
 #   Option: management_bridge (required, string)
 #   Name of management network bridge on target hosts. Typically 'br-mgmt'.
-management_bridge: "br-mgmt"
+    management_bridge: "br-mgmt"
 #
 #   Option: tunnel_bridge (optional, string)
 #   Name of tunnel network bridge on target hosts. Typically 'br-vxlan'.
 #
-tunnel_bridge: "br-vxlan"
+    tunnel_bridge: "br-vxlan"
 #   Level: provider_networks (required)
 #   List of container and bare metal networks on target hosts.
 #
@@ -212,7 +212,7 @@ tunnel_bridge: "br-vxlan"
 #   (the native VLAN in some parlance). However, additional 'vlan' or 'flat'
 #   networks require additional bridges.
 #
-provider_networks:
+    provider_networks:
      - network:
          group_binds:
            - all_containers
