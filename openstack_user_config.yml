@@ -97,7 +97,7 @@ used_ips:
 # --------
 #
 #Level: global_overrides (required)
-Level: global_overrides
+global_overrides:
 # Contains global options that require customization for a deployment. For
 # example, load balancer virtual IP addresses (VIP). This level also provides
 # a mechanism to override other options defined in the playbook structure.
