@@ -103,6 +103,7 @@ global_overrides:
 # a mechanism to override other options defined in the playbook structure.
 #
 #   Option: internal_lb_vip_address (required, string)
+    internal_lb_vip_address: 10.0.0.55
 #   Load balancer VIP for the following items:
 #
 #   - Local package repository
@@ -114,6 +115,7 @@ global_overrides:
 #   - Instance metadata
 #
 #   Option: external_lb_vip_address (required, string)
+    external_lb_vip_address: ext.openstack.itc
 #   Load balancer VIP for the following items:
 #
 #   - Public API endpoints for all OpenStack services
