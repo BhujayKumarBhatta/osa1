@@ -243,7 +243,7 @@ global_overrides:
            - neutron_linuxbridge_agent
          container_bridge: "br-vxlan"
          container_type: "veth"
-         container_interface: "eno3.30"
+         container_interface: "eno4"
          container_mtu: "9000"
          ip_from_q: "tunnel"
          type: "vxlan"
