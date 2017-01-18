@@ -88,7 +88,7 @@ cidr_networks:
 # also reserves 231-254 in the last octet at the high end of the range for
 # network device management.
 #
- used_ips:
+used_ips:
    - 10.0.0.1
    - "10.0.0.1,10.0.0.120"
    - "10.0.1.1,10.0.1.100"
